@@ -1,0 +1,56 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Node / Package files
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / Output folders
+dist/
+build/
+out/
+
+# Temp files
+tmp/
+temp/
+.cache/
+
+# Font metadata (generated, not needed)
+Assert/fonts/metadata/
+Assert/fonts/scss/
+Assert/fonts/less/
+Assert/fonts/sprites/
+
+# Font source files (keep only webfonts + css/js)
+Assert/fonts/svgs/
+
+# Misc
+*.bak
+*.orig
+*.tmp
